@@ -32,3 +32,8 @@ Minor issues include oversized clickable areas on product items.
 git clone <repository_url>
 npm install
 npx playwright test
+
+## Test Artifacts
+All detailed test cases for **Web Testing**, **API Testing**, and the **Bug Report** are compiled in the Excel file:
+
+[QA_Assessment_Test_Cases.xlsx](./QA_Assessment_Test_Cases.xlsx)
