@@ -8,7 +8,12 @@ This repository contains the QA assessment for the Swag Labs web app and JSONPla
 - **Web URL:** [Swag Labs](https://www.saucedemo.com/)  
 - **Browser:** Chrome  
 - **OS:** Windows 11  
-- **Tools:** Postman, Playwright, Excel  
+- **Tools:** Postman, Playwright, Excel
+
+## Test Artifacts
+All detailed test cases for **Web Testing**, **API Testing**, and the **Bug Report** are compiled in the Excel file:
+
+[QA_Assessment_Test_Cases.xlsx](./QA_Assessment_Test_Cases.xlsx)
 
 ## Testing Summary
 - **Web Testing:** 21 test cases executed (11 Pass, 10 Fail). Key bugs include URL bypass of checkout, empty cart checkout, session issues across tabs, and oversized clickable areas.  
@@ -32,8 +37,3 @@ Minor issues include oversized clickable areas on product items.
 git clone <repository_url>
 npm install
 npx playwright test
-
-## Test Artifacts
-All detailed test cases for **Web Testing**, **API Testing**, and the **Bug Report** are compiled in the Excel file:
-
-[QA_Assessment_Test_Cases.xlsx](./QA_Assessment_Test_Cases.xlsx)
