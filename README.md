@@ -35,6 +35,5 @@ Minor issues include oversized clickable areas on product items.
 
 ## Running Automation
 ```bash
-git clone <repository_url>
 npm install
 npx playwright test
