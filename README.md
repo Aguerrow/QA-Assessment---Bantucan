@@ -19,9 +19,10 @@ All detailed test cases for **Web Testing**, **API Testing**, and the **Bug Repo
 - **Web Testing:** 21 test cases executed (11 Pass, 10 Fail). Key bugs include URL bypass of checkout, empty cart checkout, session issues across tabs, and oversized clickable areas.  
 - **API Testing:** Tested `/users` and `/posts` endpoints. Verified status codes 200, 201, 404, 500, and edge cases like updating non-existent posts.  
 - **Automation Testing:** Implemented with two approaches:  
-  1. Single-file, straightforward approach  
-  2. Page Object Model (POM) approach for maintainability and reduced duplication  
-  Covers login, product selection, and checkout workflow using Playwright.  
+ - **Straightforward Approach:** All modules are in a single file for a quick end-to-end run.
+  - File: `tests/automationSC.spec.js`
+- **Page Object Model (POM) Approach:** Organized into separate pages and modules for maintainability and easier updates.
+  - File: `tests/fullFlow.spec.js`
 
 ## Bugs Summary
 Major issues include:  
